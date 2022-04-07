@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+			body {
+				background-color: rgba(66,71,64,1.00)
+			}
+			.container {    	
+            	background-color: rgb(137, 153, 133);
+            	width: 90%;
+           		height: 100%;
+				margin-left: auto;
+            	margin-right: auto;
+            	border-bottom-width: 0px;
+            	padding-left: 0px;
+            	padding-top: 50px;
+            	padding-right: 0px;
+            	padding-bottom: 0px;
+            }
+            .row {
+                width: 100%;
+            	margin-top: 0px;
+            	margin-right: 0px;
+            	margin-bottom: 0px;
+            	margin-left: 0px;
+            	padding-top: 0px;
+            	padding-right: 0px;
+            	padding-bottom: 0px;
+            	padding-left: 0px;
+            	display: inline-block;
+            }
+            .columns {
+            	width: 50%;
+            	float: left;
+            	font-family: "Source Sans Pro";
+            	color: #A5A5A5;
+            	line-height: 24px;
+            	padding-top: 10px;
+            	padding-bottom: 10px;
+            	text-align: justify;
+            	margin-top: 15px;
+            	margin-bottom: 15px;
+            	padding-left: 0px;
+            	padding-right: 0px;
+            	margin-left: 0px;
+            	margin-right: 0px;
+            }
+			.column {
+				width: 50%;
+            	line-height: 24px;
+            	padding-top: 10px;
+            	padding-bottom: 10px;
+            	text-align: justify;
+            	margin-top: 15px;
+            	margin-bottom: 15px;
+            	padding-left: 0px;
+            	padding-right: 0px;
+            	margin-left: 0px;
+            	margin-right: 0px;
+			}
+            .primary_header {
+            	width: 100%;
+            	height: 230px;
+            	background-image: url("https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png");
+            	background-position: center;
+            	background-repeat: no-repeat;
+            	background-clip: border-box;
+            	background-size: 95% 95%;
+            	padding-top: 10px;
+            	padding-bottom: 10px;
+            	clear: left;
+            	border-bottom: 2px solid #2C9AB7;
+            }
+            .title {
+            	font-size: 36pt;
+            	font-weight: 30p;
+            	font-style: normal;
+            	font-family: "Arial";
+            	width: 350px;
+            	box-shadow: 3px 3px #888888;
+            	text-align: left;
+            	padding-top: 0px;
+            	padding-left: 10px;
+            	margin-top: 32px; 
+            	background-color: rgb(80, 99, 82);
+				opacity: 0.87;
+            	color: #FFFFFF;
+            	letter-spacing: px;
+            }
+            .secondary_header {
+                width: 100%;
+				height: 30px;
+            	padding-top: 10px;
+            	padding-bottom: 10px;
+            	background-color: #657D67;
+            	clear: left;
+            }
+            .container .secondary_header ul {
+            	margin-top: 0%;
+            	margin-right: auto;
+            	margin-bottom: 0px;
+            	margin-left: auto;
+            	padding-top: 0px;
+            	padding-right: 0px;
+            	padding-bottom: 15px;
+            	padding-left: 0px;
+            	width: 100%;
+            }
+            .secondary_header ul li {
+            	list-style: none;
+            	float: left;
+            	margin-right: auto;
+            	margin-top: 0px;
+            	font-size: 1.5em;
+				font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+            	font-weight: bold;
+            	color: #FFFFFF;
+            	letter-spacing: 1px;
+            	margin-left: auto;
+            	text-align: center;
+            	width: 23%;
+				height: 100%;
+            }
+            .secondary_header ul li:hover {
+            	background-color: #122613;
+            	cursor: pointer;
+				color: #9EABBC;
+            }
+            .header {
+                padding-left: 20px;
+            }
+			.left_article {
+				height:auto;
+				padding: 20px;
+				padding-bottom: 0px;
+				float: left;
+				text-indent: 10px;
+			}
+			.right_article {
+				height: auto;
+				width: 60%;
+				float: right;
+				padding-bottom: 27px;
+				padding-right: 20px;
+				margin-top: 20px;
+	
+			}
+			.placeholder {
+				width: 100%;
+				margin-left: 0px;
+				margin-right: 0px;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			.secondSection article p{
+				width: auto;
+				text-indent: 10px;
+				padding-right: 20px;
+				padding-left: 20px;
+		
+			}
+			.lists {
+				padding-left: 20px;
+				padding-top: 10px;
+				background-color: rgb(137, 153, 133);
+				height: auto;
+			}
+        
+@media (min-width: 800px){
+}
+
+@media (max-width: 1430px){
+}
+			#toolBar {
+				position: fixed;
+				top: 0px;
+				width: 89%;
+				height: 50px;
+				background-color: #0D1C0A;
+				z-index: 5;
+				margin-left: auto;
+				margin-right: auto;
+				opacity: 0.85;
+				border-bottom: 3px dotted rgb(255, 255, 255);
+			}
+			.toolFont {
+				color: #BFD0C9;
+				font-size: 18px;
+				float: right;
+				margin-right: 35px;
+				margin-top: 12px;
+				
+			}
+			.settingsBut {
+				width: 35px;
+				float: right; 
+				margin-right: 30px;
+				margin-top: 6px;
+			}
+			.settingsBut:hover {
+				
+			} 
+			#settingsIcon:hover {
+				background-color: #356131;
+				opacity: 0.7;
+				cursor: pointer;
+			}
+			#loginButton:hover {
+				background-color: #356131;
+				opacity: 0.5;
+				color: #90A9C9;
+				cursor: pointer;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+          <div id="toolBar">
+				<span class="toolFont" id="loginButton">Login</span><img class="settingsBut" id="settingsIcon" src="../../Downloads/settings-131964753254455707.png">
+			</div>
+			<header>
+				<div class="primary_header">
+                    <h1 class="title">Travel to Fiji....</h1>
+                </div>
+                <nav class="secondary_header" id="menu">
+                    <ul>
+                        <li>About</li>
+                        <li>Places </li>
+                        <li>To Do</li>
+                        <li>Book It!</li>
+                    </ul>
+                </nav>
+            </header>    
+            <section class="left_article">
+                <article>
+					<h2 class="header">So much to do, so much to see......</h2>  
+					<p>
+						Fiji officially the Republic of Fiji, is an island country in Melanesia, part of Oceania in the South Pacific Ocean. It lies about 1,100 nautical miles (2,000 km; 1,300 mi) northeast of New Zealand. Fiji consists of an archipelago of more than 330 islands—of which about 110 are permanently inhabited—and more than 500 islets, amounting to a total land area of about 18,300 square kilometres (7,100 sq mi). The most outlying island group is Ono-i-Lau. About 87% of the total population of 883,483 live on the two major islands, Viti Levu and Vanua Levu. About three-quarters of Fijians live on Viti Levu's coasts: either in the capital city of Suva; or in smaller urban centres such as Nadi—where tourism is the major local industry; or in Lautoka, where the sugar-cane industry is dominant. The interior of Viti Levu is sparsely inhabited because of its terrain.
+					</p>
+				</article>
+			</section>
+			<section class="secondSection">	
+				<aside class="right_article"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png" alt="" width="400" height="200" class="placeholder"/> </aside>
+				<article>
+					<h2 class="header">
+					  Geography....
+					</h2>
+				  <p>
+						The most outlying island group is Ono-i-Lau. About 87% of the total population of 883,483 live on the two major islands, Viti Levu and Vanua Levu. About three-quarters of Fijians live on Viti Levu's coasts: either in the capital city of Suva; or in smaller urban centres such as Nadi—where tourism is the major local industry; or in Lautoka, where the sugar-cane industry is dominant. The interior of Viti Levu is sparsely inhabited because of its terrain.
+					</p>
+				</article>
+			</section>
+			<section class="lists">
+				<article class="column">
+					<h2>Places to Go:</h2>
+					<ul>
+						<li>Mt. Vernon</li>
+						<li>Rico Swavae's Resort</li>
+						<li>La Playa Bonita</li>
+						<li>Daniel's Paradise!</li>
+						<li>Daniel Schmidt-ville</li>
+					</ul>
+				</article>
+				<article class="column">
+					<h2>Things to do:</h2>
+					<ul>
+						<li>Horseback riding on beach</li>
+						<li>Carnival on beach</li>
+						<li>Evening hike on illuminated trail with guide</li>
+					</ul>
+				</article>
+			</section>
+        </div>
+	</body>
+</html>
+
